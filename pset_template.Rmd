@@ -37,13 +37,11 @@ library(tidyverse)
 1. TEXT ANSWER GOES HERE
 
 ```{r}
-# CODE GOES HERE
 ggplot(mpg, aes(manufacturer)) + geom_bar()
 ```
 
 2. TEXT ANSWER GOES HERE
 
 ```{r}
-# CODE GOES HERE
 ggplot(mtcars, aes(factor(cyl), mpg)) + geom_violin(aes(fill=mpg))
 ```
