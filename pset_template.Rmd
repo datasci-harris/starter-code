@@ -1,47 +1,43 @@
 ---
-title: "The Title Here"
-author: "Your Name Here"
-date: "The Date Here"
+title: "Markdown Headers"
+author: "Yuxi Wu"
+date: "29/03/2020"
 output:
   html_document:
-    number_sections: true
+    number_sections: yes
+  pdf_document: default
 ---
-**Front matter**
-
-This submission is my work alone and complies with the 30531 integrity policy.
-  
-  Add your initials to indicate your agreement: **__**
-
-
 ```{r message=FALSE, warning=FALSE}
-# LOAD LIBRARIES HERE
 library(tidyverse)
 ```
 
-# Setup
+<!-- .Rmd files use  markdown, a text mark up language, to provide formating.--> 
+<!--Text include within these strange arrows are comments and will not show up when you knit-->
 
-# R4DS Exercises
-## Section heading goes here
-<!--Please do your best to match the problem set numbering. This will happen 
-    automatically if you follow the pattern of #s.
-    
-    One # gives you a main heading; 
-    two ## give a sub-heading. 
-    For the next layer of numbering, please follow the numbering manually; 
-    If you are really interested in automatic numbering see a TA.
-    
-    Try knit to html before proceeding to see what the output will look like!
-    -->
-    
-    
-1. TEXT ANSWER GOES HERE
+# Front matter
+This submission is my work alone and complies with the 30535 integrity policy.
+
+Add your initials to indicate your agreement: **__**
+
+Add your collaborators: **__**
+
+Late coins used this pset: 0. Late coins left: 4. 
+<!--You may use up to two for a given assignment.)-->
+
+# Problems
+## You change section heading goes here 
+<!--(Notice the use of two `##`)-->
+
+1. YOUR TEXT ANSWER GOES HERE (Please delete)
 
 ```{r}
+# YOUR CODE GOES HERE  (Please delete)
 ggplot(mpg, aes(manufacturer)) + geom_bar()
 ```
 
-2. TEXT ANSWER GOES HERE
+1. YOUR TEXT ANSWER GOES HERE (Please delete)
 
 ```{r}
+# YOUR CODE GOES HERE  (Please delete)
 ggplot(mtcars, aes(factor(cyl), mpg)) + geom_violin(aes(fill=mpg))
 ```
