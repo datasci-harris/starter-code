@@ -1,6 +1,6 @@
 # GitHub Desktop, GitHub, and DS4PP
 
-Throughout the course you will use GitHub Desktop to submit homework.
+Throughout the course you will use GitHub Desktop to submit homework. To see detailed videos with an introduction to using Git for this class, see [these videos](https://canvas.uchicago.edu/courses/28237/files/folder/Videos/git%20primer) on canvas.
 
 GitHub provides online storage with version control using software called `git`. Everytime you commit a change, `git` tracks those changes. This is useful when you want to go back to look at old work without storing multiple copies of a file and also allows for sophisticated collaboration on shared files.
 
