@@ -1,4 +1,24 @@
-# GitHub Desktop, GitHub, and DS4PP
+This is the starter repo for 30535 Data and Programming for Public Policy I. This README includes 
+1. An explanation of the problem set front matter
+1. An outline of the homework workflow
+1. An overview of Git and Github.
+
+# Problem Set Front Matter
+1. Problem sets are due at 5 pm on Friday. You have 4 late coins for the quarter. A late coin extends your deadline 24 hours. You may use up to 2 on a given problem set. When you are using late coins please acknowledge this in the front matter of your problem set.
+1. For each problem set, you will acknowledge that you are following the integrity policy. Please list all classmates who you consult with on a given problem set. 
+
+# Problem Set Workflow (see video for more details)
+1. Go to the assignment invitation url in the problem set, and accept the invitation.
+1. This forks (copies) the starter repository into our organization's repository (datasci-harris), with your Github username.
+1. Click the link where the assignment repository was created, and clone this remote repository to your local computer using GitHub Desktop. Do this by clicking Set up in Desktop. Make sure to choose the local folder you would like to clone the repository into. GitHub Desktop will default to the last folder you have used.
+1. Rename `pset_template.Rmd` as directed by the homework. Complete the assignment within this renamed file.
+1. Delete the `pset_template.html` file from your repository. It only exists as an example.
+1. Use `knitr` to create an html document of your assignment. It should have the same name as the `.Rmd` file, but with a `.html` extension.
+1. Commit and push your finished assignment to Github using GitHub Desktop.
+
+Note: The html files can be viewed in a web browser (e.g. Firefox).  GitHub does not automatically render html documents, so you will not be able to preview them easily on Github.
+
+# GitHub Desktop and GitHub
 
 Throughout the course you will use GitHub Desktop to submit homework. To see detailed videos with an introduction to using Git for this class, see [these videos](https://canvas.uchicago.edu/courses/28237/files/folder/Videos/git%20primer) on canvas.
 
@@ -8,6 +28,8 @@ GitHub provides online storage with version control using software called `git`.
 ## Overview
 
 You will use GitHub Desktop to add files, commit, and push them to your remote repository. You can also use GitHub Desktop to remove files and undo changes/revert to an older version.
+
+
 
 
 ## Explanation
@@ -37,13 +59,4 @@ By default, GitHub Desktop tracks all files within your local repository. Someti
 
 To do this, go to GitHub Desktop, and click Repository > Repository Settings on the toolbar. Doing so opens a small window that allows you to specify which files or types of files to ignore. For example, if one wants to ignore all CSVs, then add the line `*.csv`. This will ignore all files with the extension `.csv`.
 
-# Homework Workflow (see video for more details)
-1. Go to the assignment invitation url that you will receive from us, and accept the invitation.
-2. This forks/copies the assignment repository into our organization's repository (datasci-harris), with your Github username.
-3. Click the link where the assignment repository was created, and clone this remote repository to your local computer using GitHub Desktop. Do this by clicking Set up in Desktop. Make sure to choose the local folder you would like to clone the repository into. GitHub Desktop will default to the last folder you have used.
-2. Rename `pset_template.Rmd` as directed by the homework. Complete the assignment within this renamed file.
-3. Delete the `pset_template.html` file from your repository. It only exists as an example.
-4. Use `knitr` to create an html document of your assignment. It should have the same name as the `.Rmd` file, but with a `.html` extension.
-5. Commit and push your finished assignment to Github using GitHub Desktop.
 
-Note: The html files can be viewed in a web browser (e.g. Firefox).  GitHub does not automatically render html documents, so you will not be able to preview them easily on Github.
