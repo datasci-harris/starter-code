@@ -1,4 +1,6 @@
 *.csv
+*.rda
+*.rds
 
 # History files
 .Rhistory
